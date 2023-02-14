@@ -33,9 +33,18 @@ body {
     line-height: 1.19;
 }
 
+.brand-logo-studio-footer {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--white-color);
+}
+
 .contact-nav-link:hover,
 .contact-nav-link:active,
 .contact-nav-link:focus,
+.adress-footer-link:hover,
 .main-nav-link:hover,
 .main-nav-link:active,
 .main-nav-link:focus {
@@ -154,6 +163,18 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+}
+
+.footer-container {
+    background-color: #2F303A;
+}
+
+.adress-footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
 }
 
 /* Sfarsit stilizare body */
